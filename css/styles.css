@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: arial;
+}
+
+html,
+body {
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+
+:root {
+  --background: rgb(247, 247, 247);
+  --dark: #333;
+}
+
+.navbar {
+  height: 20vh;
+  color: grey;
+}
+
+.navbar p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 3rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.navbar p small {
+  font-size: 0.5rem;
+}
+
+.gallery .gallery-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.gallery .gallery-wrapper .grid-item {
+  width: 200px;
+}
+
+.gallery .gallery-wrapper img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gallery .gallery-wrapper img:hover {
+  border-radius: 30px;
+  width: 98%;
+  opacity: 0.5;
+  -webkit-transition: all ease-in-out 0.05s;
+  transition: all ease-in-out 0.05s;
+}
+
+.footer {
+  background-color: var(--dark);
+}
+
+.footer .footer-wrapper {
+  color: white;
+}
+
+.footer .footer-wrapper p {
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=styles.css.map */
