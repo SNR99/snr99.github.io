@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 0 30px;
+  min-width: 320px;
+  max-width: 1380px;
+  margin: auto;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.showcase {
+  background-color: black;
+  height: 100vh;
+}
+
+.showcase .showcase-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.showcase .showcase-wrapper h1 {
+  color: white;
+  font-size: clamp(2rem, 6vw, 5rem);
+}
+
+.showcase .showcase-wrapper p {
+  color: white;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.showcase .showcase-wrapper span {
+  padding: 5px 0;
+  border-bottom: 2px solid orangered;
+}
+/*# sourceMappingURL=styles.css.map */

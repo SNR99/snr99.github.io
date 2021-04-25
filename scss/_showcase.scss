@@ -1,0 +1,22 @@
+.showcase {
+  background-color: black;
+  height: 100vh;
+  .showcase-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    h1 {
+      color: white;
+      font-size: clamp(2rem, 6vw, 5rem);
+    }
+    p {
+      color: white;
+      font-size: clamp(1rem, 2vw, 2rem);
+    }
+    span {
+      padding: 5px 0;
+      border-bottom: 2px solid orangered;
+    }
+  }
+}
