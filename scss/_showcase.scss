@@ -1,6 +1,8 @@
 .showcase {
   background-color: black;
   height: 100vh;
+  background-attachment: fixed;
+
   .showcase-wrapper {
     display: flex;
     flex-direction: column;

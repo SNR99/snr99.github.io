@@ -25,6 +25,7 @@ body {
 .showcase {
   background-color: black;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .showcase .showcase-wrapper {
@@ -54,5 +55,10 @@ body {
 .showcase .showcase-wrapper span {
   padding: 5px 0;
   border-bottom: 2px solid orangered;
+}
+
+.about {
+  padding: 5vh 0;
+  height: 100vh;
 }
 /*# sourceMappingURL=styles.css.map */
