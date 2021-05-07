@@ -1,0 +1,117 @@
+.sidebar {
+  background-color: var(--bs-blue);
+  width: 100%;
+  z-index: 999;
+  transition: 0.5s;
+
+  .header {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    p {
+      font-weight: 700;
+    }
+    small {
+      a {
+        color: white;
+        font-size: 14px;
+      }
+    }
+    .image-wrapper {
+      margin-bottom: 2rem;
+      border-radius: 50%;
+      background-color: var(--bs-icon);
+      width: 11rem;
+      height: 11rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        border-radius: 50%;
+        width: 9rem;
+        height: 9rem;
+      }
+    }
+  }
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ul {
+      height: fit-content;
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      li {
+        padding: 5px;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--bs-icon);
+        i {
+          font-size: 1.3rem;
+          color: white;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 860px) {
+  .landing {
+    display: grid;
+    grid-template-columns: minmax(290px, 1fr) 5fr;
+  }
+  .nav-toggler {
+    i {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .sidebar {
+    position: absolute;
+    height: 100%;
+    width: 280px;
+    left: -280px;
+  }
+}
+
+.nav-toggler {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  i {
+    font-size: 2rem;
+    color: white;
+  }
+  .fa-times {
+    display: none;
+  }
+}
+
+.side-active {
+  left: 0;
+}
+.toggler {
+  .fa-bars {
+    display: none;
+  }
+  .fa-times {
+    display: block;
+  }
+}
