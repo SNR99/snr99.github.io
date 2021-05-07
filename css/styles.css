@@ -61,4 +61,21 @@ body {
   padding: 5vh 0;
   height: 100vh;
 }
+
+.about .header {
+  font-size: clamp(1rem, 5vw, 4rem);
+  margin: 10vh 0;
+}
+
+.about .body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.about .body .image-wrapper img {
+  width: 100%;
+  max-width: 50vh;
+}
 /*# sourceMappingURL=styles.css.map */
