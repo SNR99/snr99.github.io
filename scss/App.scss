@@ -50,12 +50,12 @@ section {
     font-size: clamp(1rem, 5vw, 3rem);
   }
   .links {
-    max-width: 280px;
     list-style: none;
     margin-top: 60px;
     @include displayFlex(row, space-between);
 
     i {
+      padding: 0 0.51em;
       color: #000;
       font-size: clamp(1.2rem, 2.5vw, 2rem);
     }

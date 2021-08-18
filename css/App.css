@@ -91,7 +91,6 @@ section {
 }
 
 .social-media .links {
-  max-width: 280px;
   list-style: none;
   margin-top: 60px;
   display: -webkit-box;
@@ -110,6 +109,7 @@ section {
 }
 
 .social-media .links i {
+  padding: 0 0.51em;
   color: #000;
   font-size: clamp(1.2rem, 2.5vw, 2rem);
 }
