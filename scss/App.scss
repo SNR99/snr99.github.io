@@ -50,7 +50,7 @@ section {
     font-size: clamp(1rem, 5vw, 3rem);
   }
   .links {
-    width: 280px;
+    max-width: 280px;
     list-style: none;
     margin-top: 60px;
     @include displayFlex(row, space-between);
