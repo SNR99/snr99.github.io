@@ -25,12 +25,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/App.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Ntwanano Rikhotso</title>
   </head>
   <body>
     <section class="landing">
-      <h1>Hello, my name is Ntwanano.</h1>
-      <p>Welcome to my website!</p>
+      <h1 data-aos="fade-down" data-aos-duration="600" data-aos-delay="500">
+        Hello, my name is Ntwanano.
+      </h1>
+      <p data-aos-delay="1500" data-aos-duration="1000" data-aos="fade-up">
+        Welcome to my website!
+      </p>
     </section>
     <section class="about">
       <h2>I am a</h2>
@@ -105,7 +110,9 @@
       </ul>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+      AOS.init();
       var showcase = new Typed(".typed", {
         strings: [
           "Computer Scientist!",
